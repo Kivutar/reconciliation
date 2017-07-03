@@ -39,6 +39,9 @@
 # - checkMissingTrades and checkMissingReturns may be factorized by passing a T
 #   or an R as argument. I didn't do it because the log messages are different.
 
+# I would also give a try to this CPAN module:
+# http://search.cpan.org/~chateau/Data-Reconciliation-0.07/lib/Data/Reconciliation.pm
+
 use Modern::Perl;
 use Text::CSV::Simple;
 #use Data::Dumper;
